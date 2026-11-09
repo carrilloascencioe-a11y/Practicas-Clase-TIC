@@ -23,3 +23,20 @@ else:
     print("No esta pero dejame la agrego")
     Pelicula.append(PeliBuscar)
     print(Pelicula)
+#lo extra
+#solicitar una pelicula para borrar
+#Borrar la película
+#Muestra la lista
+Peliculas=[]
+ListaPelis=int(input("Cuantas vas a agregar"))
+i=0
+while i<=ListaPelis:
+    pelis=input("Ingresa Películas: ")
+    Peliculas.append(pelis)
+    print(Peliculas)
+    i=i+1
+PeliBorrar=input("Cual quieres borrar")
+print(Peliculas)
+Peliculas.remove(PeliBorrar)
+for Pelis in Peliculas:
+    print(Peliculas)
