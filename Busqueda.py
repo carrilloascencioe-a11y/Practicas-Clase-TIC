@@ -15,4 +15,9 @@ while i<len(Nombres):
             print("Aparece",Contador,"Veces")
         else:
             print("Nombre no Encontrado")
-
+#Extra:
+if Contador>1:
+    while NombreBuscar in Nombres:
+        Nombres.remove(NombreBuscar)
+        print(f'Se Elimino el Nombre que más se Repite')
+print(Nombres)
